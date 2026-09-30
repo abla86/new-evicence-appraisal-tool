@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="nb">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research Privacy Inspector</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <main>
+    <header class="header">
+      <h1 id="popup-title">Research Inspector</h1>
+      <p class="subtitle">Lokal metadata- og siteringsanalyse</p>
+    </header>
+
+    <button id="inspect" type="button">Analyser denne siden</button>
+
+    <p id="error" role="alert" hidden></p>
+
+    <section id="results" hidden aria-label="Analyseresultat">
+      <h2>Metadata & DOI</h2>
+      <p id="doi-result" class="result-text"></p>
+
+      <h2>APA 7-kladd</h2>
+      <p><span id="apa-status" class="badge" aria-live="polite"></span></p>
+      <blockquote id="apa-output" class="citation-box"></blockquote>
+      <button id="copy-apa" type="button" disabled>Kopier APA 7-kladd</button>
+
+      <h2>Norsk lov/forskrift</h2>
+      <p id="law-result" class="result-text"></p>
+
+      <p class="note">
+        All analyse skjer lokalt. Ingen data sendes fra denne utvidelsen.
+        Metadata er <strong>oppdaget</strong>, ikke verifisert mot ekstern kilde.
+      </p>
+    </section>
+  </main>
+  <script type="module" src="popup.js"></script>
+</body>
+</html>

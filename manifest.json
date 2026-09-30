@@ -1,0 +1,11 @@
+{
+  "manifest_version": 2,
+  "name": "Research Privacy Inspector",
+  "version": "0.3.0",
+  "description": "Lokal personvern- og referanseanalysator for forskningsartikler og juridiske kilder.",
+  "permissions": ["activeTab", "scripting"],
+  "browser_action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "Research Privacy Inspector"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Complete Evidence Appraisal Tool",
+  "description": "A high-performance, crash-proof research synthesis platform for methodological appraisal (AMSTAR 2, CASP, AGREE II, GRADE, RoB 2, CFIR, KTA, PRISMA 2020), document inspection (PDF, JATS/XML, DOCX, RIS), dual-reviewer consensus, Cohen's kappa, and SHA-256 evidence traceability.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
