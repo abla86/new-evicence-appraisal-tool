@@ -1,21 +1,7 @@
-# Security Policy
+# Security policy — archived repository
 
-## Supported Versions
+This repository is archived and is not the supported development line. No ongoing security updates are promised here.
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+The maintained Evidence Appraisal application is at https://github.com/abla86/complete-evidence-appraisal-tool. Report new vulnerabilities against that canonical repository, using private reporting where available.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
-
-## Reporting a Vulnerability
-
-Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Do not publish exploit details, credentials, tokens, personal data or confidential research material in public issues. If this archived code is still deployed, treat it as unsupported and migrate only after reviewing data compatibility and deployment requirements.
